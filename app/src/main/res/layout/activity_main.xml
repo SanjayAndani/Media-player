@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:id="@+id/img"
+       android:layout_width="223dp"
+       android:layout_height="194dp"
+       android:src="@drawable/speaker"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.297" />
+
+   <ImageView
+       android:id="@+id/btnplay"
+       android:layout_width="58dp"
+       android:layout_height="48dp"
+       android:layout_marginTop="251dp"
+       android:layout_marginBottom="272dp"
+       android:src="@drawable/play"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.266"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="@+id/img" />
+
+   <ImageView
+       android:id="@+id/btnpause"
+       android:layout_width="58dp"
+       android:layout_height="48dp"
+       android:layout_marginTop="251dp"
+       android:layout_marginBottom="272dp"
+       android:src="@drawable/pause"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.498"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="@+id/img"
+       app:layout_constraintVertical_bias="0.0" />
+
+   <ImageView
+       android:id="@+id/btnstop"
+       android:layout_width="58dp"
+       android:layout_height="48dp"
+       android:layout_marginTop="251dp"
+       android:layout_marginBottom="272dp"
+       android:src="@drawable/stop"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.733"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="@+id/img"
+       app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
